@@ -183,5 +183,4 @@ Thank you for helping keep MY Files PRO improving and freely available.
 ## License
 
 MY Files PRO is free software released under the GNU General Public License v3.0 or later. See [`LICENSE`](LICENSE).
-You are free to use, study, modify, and redistribute the software, subject to
-the terms of that license.
+You are free to use, study, modify, and redistribute the software — including commercially — provided that any distributed copies or derivative works remain under the GPL, retain the original copyright and license notices, and make their source code available.
