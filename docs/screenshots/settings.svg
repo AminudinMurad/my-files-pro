@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="1200" height="760" rx="10" fill="#f0f0f1"/>
+  <rect width="1200" height="44" rx="10" fill="#1d2327"/><rect y="30" width="1200" height="14" fill="#1d2327"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="48" cy="22" r="6" fill="#febc2e"/><circle cx="70" cy="22" r="6" fill="#28c840"/>
+  <text x="600" y="27" fill="#c3c4c7" font-size="14" text-anchor="middle">Settings — MY Files PRO</text>
+
+  <text x="48" y="92" fill="#1d2327" font-size="24" font-weight="700">MY Files PRO</text>
+  <rect x="228" y="72" width="52" height="24" rx="12" fill="#2ec458" opacity="0.15"/>
+  <text x="254" y="89" fill="#1a7a3c" font-size="12" font-weight="700" text-anchor="middle">PRO</text>
+
+  <rect x="48" y="112" width="1104" height="40" rx="6" fill="#edfaef" stroke="#68de8c"/>
+  <text x="68" y="137" fill="#1a7a3c" font-size="13">✓ Settings saved.</text>
+
+  <rect x="48" y="168" width="1104" height="520" rx="8" fill="#ffffff" stroke="#dcdcde"/>
+  <g font-size="14">
+    <!-- rows -->
+    <g>
+      <text x="72" y="212" fill="#1d2327" font-weight="600">Media Library sidebar</text>
+      <rect x="360" y="198" width="44" height="22" rx="11" fill="#2ec458"/><circle cx="393" cy="209" r="8" fill="#fff"/>
+      <text x="420" y="213" fill="#50575e">Show folder sidebar in the Media Library.</text>
+    </g>
+    <line x1="72" y1="240" x2="1128" y2="240" stroke="#f0f0f1"/>
+    <g>
+      <text x="72" y="278" fill="#1d2327" font-weight="600">Default upload folder</text>
+      <rect x="360" y="262" width="260" height="30" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/>
+      <text x="374" y="282" fill="#50575e">Campaigns ▸ Raya 2026 ▾</text>
+    </g>
+    <line x1="72" y1="312" x2="1128" y2="312" stroke="#f0f0f1"/>
+    <g>
+      <text x="72" y="350" fill="#1d2327" font-weight="600">Folder counts</text>
+      <rect x="360" y="336" width="44" height="22" rx="11" fill="#2ec458"/><circle cx="393" cy="347" r="8" fill="#fff"/>
+      <text x="420" y="351" fill="#50575e">Show media counts beside folders.</text>
+    </g>
+    <line x1="72" y1="384" x2="1128" y2="384" stroke="#f0f0f1"/>
+    <g>
+      <text x="72" y="422" fill="#1d2327" font-weight="600">SVG uploads</text>
+      <circle cx="368" cy="416" r="7" fill="#fff" stroke="#2271b1" stroke-width="4"/>
+      <text x="386" y="421" fill="#1d2327">Defer to another plugin or framework</text>
+      <text x="386" y="440" fill="#8c8f94" font-size="12">Recommended when Safe SVG / UiCore / another handler is active.</text>
+      <circle cx="368" cy="464" r="7" fill="#fff" stroke="#c3c4c7" stroke-width="2"/>
+      <text x="386" y="469" fill="#1d2327">Enable SVG uploads with MY Files PRO (admin-only, sanitized)</text>
+    </g>
+    <line x1="72" y1="500" x2="1128" y2="500" stroke="#f0f0f1"/>
+    <g>
+      <text x="72" y="538" fill="#1d2327" font-weight="600">Roles that can manage folders</text>
+      <rect x="360" y="526" width="16" height="16" rx="3" fill="#2271b1"/><text x="386" y="539" fill="#50575e">Administrator</text>
+      <rect x="500" y="526" width="16" height="16" rx="3" fill="#2271b1"/><text x="526" y="539" fill="#50575e">Editor</text>
+      <rect x="600" y="526" width="16" height="16" rx="3" fill="#fff" stroke="#c3c4c7"/><text x="626" y="539" fill="#50575e">Author</text>
+    </g>
+    <line x1="72" y1="562" x2="1128" y2="562" stroke="#f0f0f1"/>
+    <g>
+      <text x="72" y="600" fill="#1d2327" font-weight="600">Uninstall cleanup</text>
+      <rect x="360" y="586" width="16" height="16" rx="3" fill="#fff" stroke="#c3c4c7"/>
+      <text x="386" y="599" fill="#50575e">Remove folders, assignments, and settings on uninstall.</text>
+      <rect x="386" y="612" width="120" height="28" rx="5" fill="#fff" stroke="#d63638"/>
+      <text x="400" y="631" fill="#d63638" font-size="12">Type DELETE…</text>
+    </g>
+  </g>
+  <rect x="72" y="712" width="140" height="34" rx="5" fill="#2271b1"/>
+  <text x="142" y="734" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Save Settings</text>
+
+  <rect x="976" y="712" width="176" height="24" rx="12" fill="#1d2327" opacity="0.72"/>
+  <text x="1064" y="728" fill="#fff" font-size="11" text-anchor="middle">Illustrative mockup</text>
+</svg>

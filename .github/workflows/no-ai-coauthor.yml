@@ -1,0 +1,39 @@
+name: Provenance Guard
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scan-commit-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+
+      - name: Reject forbidden attribution metadata
+        run: |
+          set -euo pipefail
+
+          if git log HEAD --format='%an <%ae>%n%cn <%ce>%n%B' | grep -Eiq 'co-authored.by|clau[d]e|anthro[p]ic'; then
+            echo "Forbidden attribution metadata is not allowed in this repository." >&2
+            exit 1
+          fi
+
+      - name: Require AminudinMurad author identity
+        run: |
+          set -euo pipefail
+
+          bad_identities="$(
+            git log --format='%an <%ae>' |
+              awk '$0 !~ /^Aminudin Murad <.*>$/ { print }'
+          )"
+
+          if [ -n "$bad_identities" ]; then
+            echo "Commit author must be Aminudin Murad." >&2
+            echo "$bad_identities" >&2
+            exit 1
+          fi

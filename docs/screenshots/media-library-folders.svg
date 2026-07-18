@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="mfl-thumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9edf2"/><stop offset="1" stop-color="#d7dee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="10" fill="#f0f0f1"/>
+  <!-- window chrome -->
+  <rect width="1200" height="44" rx="10" fill="#1d2327"/>
+  <rect y="30" width="1200" height="14" fill="#1d2327"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="48" cy="22" r="6" fill="#febc2e"/><circle cx="70" cy="22" r="6" fill="#28c840"/>
+  <text x="600" y="27" fill="#c3c4c7" font-size="14" text-anchor="middle">Media Library — MY Files PRO</text>
+
+  <!-- Folders sidebar -->
+  <rect x="16" y="60" width="300" height="676" rx="8" fill="#ffffff" stroke="#dcdcde"/>
+  <text x="36" y="96" fill="#1d2327" font-size="17" font-weight="700">Folders</text>
+  <rect x="248" y="80" width="52" height="22" rx="11" fill="#2ec458" opacity="0.15"/>
+  <text x="274" y="95" fill="#1a7a3c" font-size="11" font-weight="700" text-anchor="middle">PRO</text>
+  <rect x="36" y="112" width="244" height="30" rx="6" fill="#f6f7f7" stroke="#dcdcde"/>
+  <text x="48" y="132" fill="#8c8f94" font-size="12">Search folders…</text>
+
+  <!-- tree -->
+  <g font-size="13" fill="#1d2327">
+    <rect x="30" y="152" width="256" height="30" rx="6" fill="#f0f6fc"/>
+    <text x="52" y="171">📁 All Files</text><text x="270" y="171" fill="#646970" text-anchor="end">124</text>
+    <text x="52" y="203">📂 Uncategorized</text><text x="270" y="203" fill="#646970" text-anchor="end">12</text>
+
+    <rect x="48" y="220" width="10" height="10" rx="2" fill="#2271b1"/>
+    <text x="66" y="235">Brand Assets</text><text x="150" y="235" fill="#f5b100" font-size="12">★</text><text x="270" y="235" fill="#646970" text-anchor="end">34</text>
+    <text x="82" y="267" fill="#50575e">↳ Logos</text><text x="270" y="267" fill="#646970" text-anchor="end">8</text>
+    <text x="82" y="299" fill="#50575e">↳ Icons</text><text x="270" y="299" fill="#646970" text-anchor="end">11</text>
+
+    <rect x="48" y="316" width="10" height="10" rx="2" fill="#2ec458"/>
+    <text x="66" y="331">Campaigns</text><text x="270" y="331" fill="#646970" text-anchor="end">52</text>
+    <text x="82" y="363" fill="#50575e">↳ Raya 2026</text><text x="270" y="363" fill="#646970" text-anchor="end">20</text>
+    <text x="82" y="395" fill="#50575e">↳ Merdeka</text><text x="270" y="395" fill="#646970" text-anchor="end">18</text>
+
+    <rect x="48" y="412" width="10" height="10" rx="2" fill="#d63638"/>
+    <text x="66" y="427">Clients</text><text x="270" y="427" fill="#646970" text-anchor="end">26</text>
+  </g>
+  <text x="36" y="712" fill="#8c8f94" font-size="11">Drag media onto a folder to move · double-click to rename</text>
+
+  <!-- main media area -->
+  <rect x="332" y="60" width="852" height="676" rx="8" fill="#ffffff" stroke="#dcdcde"/>
+  <!-- toolbar -->
+  <rect x="352" y="80" width="118" height="34" rx="5" fill="#2271b1"/>
+  <text x="411" y="102" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Add New</text>
+  <rect x="482" y="80" width="150" height="34" rx="5" fill="#f6f7f7" stroke="#c3c4c7"/>
+  <text x="497" y="102" fill="#50575e" font-size="13">Brand Assets ▾</text>
+  <rect x="1010" y="80" width="154" height="34" rx="5" fill="#2ec458"/>
+  <text x="1087" y="102" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">Move selected here</text>
+
+  <!-- thumbnails grid -->
+  <g>
+    <!-- row 1 (two selected) -->
+    <g>
+      <rect x="352" y="130" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#2271b1" stroke-width="3"/>
+      <rect x="562" y="130" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#2271b1" stroke-width="3"/>
+      <rect x="772" y="130" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="982" y="130" width="182" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+    </g>
+    <!-- row 2 -->
+    <g>
+      <rect x="352" y="298" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="562" y="298" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="772" y="298" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="982" y="298" width="182" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+    </g>
+    <!-- row 3 -->
+    <g>
+      <rect x="352" y="466" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="562" y="466" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="772" y="466" width="188" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+      <rect x="982" y="466" width="182" height="150" rx="6" fill="url(#mfl-thumb)" stroke="#dcdcde"/>
+    </g>
+    <!-- image glyphs -->
+    <g fill="#b3bcc6">
+      <circle cx="404" cy="180" r="14"/><circle cx="614" cy="180" r="14"/><circle cx="824" cy="180" r="14"/><circle cx="1032" cy="180" r="14"/>
+      <circle cx="404" cy="348" r="14"/><circle cx="614" cy="348" r="14"/><circle cx="824" cy="348" r="14"/><circle cx="1032" cy="348" r="14"/>
+      <circle cx="404" cy="516" r="14"/><circle cx="614" cy="516" r="14"/><circle cx="824" cy="516" r="14"/><circle cx="1032" cy="516" r="14"/>
+    </g>
+  </g>
+  <text x="360" y="648" fill="#646970" font-size="12">2 items selected</text>
+
+  <!-- honesty label -->
+  <rect x="1004" y="700" width="176" height="24" rx="12" fill="#1d2327" opacity="0.72"/>
+  <text x="1092" y="716" fill="#fff" font-size="11" text-anchor="middle">Illustrative mockup</text>
+</svg>

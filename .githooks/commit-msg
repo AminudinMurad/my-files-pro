@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -eu
+
+message_file="${1:?commit message file is required}"
+forbidden_pattern='^(co-authored.by:[[:space:]]+.*(clau[d]e|anthro[p]ic)|.*<noreply@anthro[p]ic\.com>)'
+
+if grep -Eiq "$forbidden_pattern" "$message_file"; then
+	printf '%s\n' 'Commit blocked: remove forbidden attribution metadata before committing.' >&2
+	exit 1
+fi
